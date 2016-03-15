@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		88CCE36A1C97AD460020C884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CCE3691C97AD460020C884 /* AppDelegate.swift */; };
 		88CCE36C1C97AD460020C884 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CCE36B1C97AD460020C884 /* FirstViewController.swift */; };
-		88CCE36E1C97AD460020C884 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CCE36D1C97AD460020C884 /* SecondViewController.swift */; };
+		88CCE36E1C97AD460020C884 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CCE36D1C97AD460020C884 /* LocationVC.swift */; };
 		88CCE3711C97AD460020C884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CCE36F1C97AD460020C884 /* Main.storyboard */; };
 		88CCE3731C97AD460020C884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88CCE3721C97AD460020C884 /* Assets.xcassets */; };
 		88CCE3761C97AD460020C884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CCE3741C97AD460020C884 /* LaunchScreen.storyboard */; };
+		88CCE37E1C97B6560020C884 /* BootcampAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CCE37D1C97B6560020C884 /* BootcampAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		88CCE3661C97AD460020C884 /* BootCamps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BootCamps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CCE3691C97AD460020C884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88CCE36B1C97AD460020C884 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		88CCE36D1C97AD460020C884 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		88CCE36D1C97AD460020C884 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		88CCE3701C97AD460020C884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88CCE3721C97AD460020C884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88CCE3751C97AD460020C884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88CCE3771C97AD460020C884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88CCE37D1C97B6560020C884 /* BootcampAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootcampAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				88CCE3691C97AD460020C884 /* AppDelegate.swift */,
 				88CCE36B1C97AD460020C884 /* FirstViewController.swift */,
-				88CCE36D1C97AD460020C884 /* SecondViewController.swift */,
+				88CCE36D1C97AD460020C884 /* LocationVC.swift */,
 				88CCE36F1C97AD460020C884 /* Main.storyboard */,
 				88CCE3721C97AD460020C884 /* Assets.xcassets */,
 				88CCE3741C97AD460020C884 /* LaunchScreen.storyboard */,
 				88CCE3771C97AD460020C884 /* Info.plist */,
+				88CCE37D1C97B6560020C884 /* BootcampAnnotation.swift */,
 			);
 			path = BootCamps;
 			sourceTree = "<group>";
@@ -139,9 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88CCE36E1C97AD460020C884 /* SecondViewController.swift in Sources */,
+				88CCE36E1C97AD460020C884 /* LocationVC.swift in Sources */,
 				88CCE36A1C97AD460020C884 /* AppDelegate.swift in Sources */,
 				88CCE36C1C97AD460020C884 /* FirstViewController.swift in Sources */,
+				88CCE37E1C97B6560020C884 /* BootcampAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
